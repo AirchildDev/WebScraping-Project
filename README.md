@@ -335,7 +335,7 @@ python -m venv .ScrapeEnv
 After activation, the terminal should display:
 
 ```text
-(.ScrapeEnv) PS C:\Users\YourName\OneDrive\Desktop\WebScrapingProject>
+(.ScrapeEnv) PS C:\Users\YourName\OneDrive\Desktop\WebScraping_Project>
 ```
 
 ## Installing Dependencies
