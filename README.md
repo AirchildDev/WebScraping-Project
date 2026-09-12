@@ -152,9 +152,9 @@ Pandas makes it possible to perform operations such as:
 ```text
 WebScrapingProject/
 │
-├── .venv/
+├── .ScrapeEnv/
 ├── scraper.py
-├── query_data.py
+├── data_query.py
 ├── requirements.txt
 ├── README.md
 └── output/
@@ -317,7 +317,7 @@ The result is stored in `output/wikipedia_random_page.csv`.
 If the project is hosted on GitHub, clone it using:
 
 ```bash
-git clone https://github.com/AirchildDev/WebScraping-Project.git
+git clone https://github.com/AirchildDev/WebScraping-Project
 cd WebScraping_Project
 ```
 
@@ -434,7 +434,7 @@ The scraper collects the information; Pandas is then used to query the resulting
 
 ## Book Queries
 
-Create or use `query_data.py` and load the books:
+Create or use `data_query.py` and load the books:
 
 ```python
 import pandas as pd
@@ -568,7 +568,7 @@ print(wikipedia.loc[0, "content"])
 The project can also provide an interactive command-line interface:
 
 ```bash
-python query_data.py
+python data_query.py
 ```
 
 ```text
@@ -891,11 +891,11 @@ This project demonstrates several important scraping patterns.
 |---|---|---|
 | 1 | Open PowerShell | — |
 | 2 | Navigate to the project | `cd "$HOME\OneDrive\Desktop\WebScrapingProject"` |
-| 3 | Activate the virtual environment | `.venv\Scripts\Activate.ps1` |
+| 3 | Activate the virtual environment | `.ScrapeEnv\Scripts\Activate.ps1` |
 | 4 | Install dependencies | `pip install -r requirements.txt` |
 | 5 | Run the scraper | `python scraper.py` |
 | 6 | Check the output | `dir output` |
-| 7 | Query the data | `python query_data.py` |
+| 7 | Query the data | `python data_query.py` |
 
 ---
 
@@ -913,7 +913,7 @@ If Python is installed but the command is unavailable, verify that Python is cor
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.venv\Scripts\Activate.ps1
+.ScrapeEnv\Scripts\Activate.ps1
 ```
 
 **ModuleNotFoundError**
