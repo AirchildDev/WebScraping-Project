@@ -150,7 +150,7 @@ Pandas makes it possible to perform operations such as:
 ## Project Structure
 
 ```text
-WebScrapingProject/
+WebScraping_Project/
 │
 ├── .ScrapeEnv/
 ├── scraper.py
@@ -890,7 +890,7 @@ This project demonstrates several important scraping patterns.
 | Step | Action | Command |
 |---|---|---|
 | 1 | Open PowerShell | — |
-| 2 | Navigate to the project | `cd "$HOME\OneDrive\Desktop\WebScrapingProject"` |
+| 2 | Navigate to the project | `cd "$HOME\OneDrive\Desktop\WebScraping_Project"` |
 | 3 | Activate the virtual environment | `.ScrapeEnv\Scripts\Activate.ps1` |
 | 4 | Install dependencies | `pip install -r requirements.txt` |
 | 5 | Run the scraper | `python scraper.py` |
